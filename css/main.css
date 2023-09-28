@@ -314,6 +314,27 @@ main
 display: none;
 }
 
+/**RED SOCIAL**/
+
+.menu .red_social a
+{
+    text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: transparent;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+.menu .red_social a:hover
+{
+    transform: scale(1.2);
+}
+
 /**MEDIA QUERIES**/
 
 @media screen and (max-width: 850px) {
